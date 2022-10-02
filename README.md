@@ -1,7 +1,7 @@
 # New-Dawn-Enactus-Project
 ### Project Manager: Punyaja Mishra
 
-This project is initiated by Punyaa Mishra and is being worked under the Trent University Enactus Club to develop a platform for assisting the homeless population. The group has discovered an opportunity to revive the conditions of the homeless and take steps towards reviving their conditions.
+>This project is initiated by Punyaja Mishra and is being worked under the Trent University Enactus Club to develop a platform for assisting the homeless population. >The group has discovered an opportunity to revive the conditions of the homeless and take steps towards reviving their conditions.
 
 ## Project Definition
 
