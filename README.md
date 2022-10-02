@@ -12,10 +12,10 @@ The Project “New Dawn” aims to create a platform that will act as a census o
 
 ## Vision
 
-> To deliver an accessible platform to the general public with the ability to upload information about the needy
-> To implement the Geolocation feature that delivers the information based on the location
-> To procure information about nearby shelters
-> To successfully introduce the new Web Application to the public. ©
+To deliver an accessible platform to the general public with the ability to upload information about the needy
+To implement the Geolocation feature that delivers the information based on the location
+To procure information about nearby shelters
+To successfully introduce the new Web Application to the public. ©
 
 
 ## Objectives
