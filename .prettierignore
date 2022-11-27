@@ -1,0 +1,13 @@
+# .prettierrc - json/config file stores all the prettier settings we want
+
+# the prettierignore file is to let the Prettier CLI and editors know which files to not format
+# the syntax is - *.html - this for example means that prettier should ignore all html files
+
+# Ignore artifacts:
+build
+coverage
+
+# Ignore files in version control systems directories
+**/.svn
+**/.hg
+**/node_modules

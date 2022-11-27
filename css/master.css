@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/*
+#################################################
+                BODY & Full page 
+#################################################
+*/
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    color: black;
+    font-family: Garamond, serif;
+}
+
+h1 {
+    font-family: "Courier New", monospace;
+    font-size: 3rem;
+    margin-bottom: 1%;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: Garamond, serif;
+    font-size: 2.1rem;
+    margin-bottom: 2%;
+    font-weight: 100;
+}
+
+button {
+    width: 6rem;
+    height: 2rem;
+    padding: 1%;
+    border-radius: 0.5rem;
+    color: black;
+    border-color: #ff823a;
+    background-color: #ff823a;
+    opacity: 0.9;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+/*
+#################################################
+                    HEADER  
+#################################################
+*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1 1 auto;
+    vertical-align: middle;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 10%;
+    margin-left: 1%;
+}
+
+.logo p {
+    margin-left: 1%;
+    font-size: 2rem;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.nav-links-box {
+    width: 35%;
+    margin-right: 2%;
+    font-size: 1.8rem;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-links li {
+    vertical-align: middle;
+}
+
+.nav-links li a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-links li a:hover {
+    color: blue;
+}
+
+/*
+#################################################
+                    INTRO
+#################################################
+*/
+.intro-container {
+    display: flex;
+    flex-direction: row;
+    flex: 2 1;
+    width: 100%;
+    height: 55rem;
+}
+
+.intro-container-text {
+    font-family: Garamond, serif;
+    padding: 1%;
+    text-align: center;
+    padding-top: 12%;
+}
+
+.intro-container-text button {
+    width: 10rem;
+    height: 4rem;
+    padding: 1%;
+    font-size: 1.5rem;
+}
+
+.intro-container-img {
+    padding: 2%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+/*
+#################################################
+                ABOUT & WHY
+#################################################
+*/
+
+.about {
+    background-color: #fab245;
+    display: flex;
+    flex-direction: row;
+    height: 20rem;
+    padding: 5%;
+}
+
+.about-right {
+    padding: 2%;
+    width: 50%;
+    margin: 1% 5%;
+    font-size: 1.2rem;
+}
+
+.about-left {
+    padding: 1%;
+    margin: 1% 7%;
+    width: 20%;
+}
+
+/*
+#################################################
+                Team/ Resources
+#################################################
+*/
+
+.team {
+    margin: 10% 11% 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 20rem;
+    width: 80%;
+}
+
+.team-left {
+    margin-left: 2%;
+    text-align: center;
+}
+
+.team img {
+    border-radius: 50%;
+}
+
+.team-right {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-right: 5%;
+}
+/*
+#################################################
+                    PARTNERS
+#################################################
+*/
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    background-color: #fab245;
+    height: 40rem;
+    align-items: center;
+}
+
+.partners-type {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+.partners-type {
+    display: flex;
+    flex-direction: row;
+}
+.partners-type img {
+    border-radius: 50%;
+}
+.partners-type-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*
+#################################################
+                FOOTER | CONTACT US
+#################################################
+*/
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    margin-top: 5%;
+}
+
+.contact ul {
+    top: 50%;
+    padding: 0;
+    display: flex;
+    align-items: stretch;
+}
+
+.contact ul li {
+    list-style: none;
+    padding: 5%;
+}
+
+.contact ul li a {
+    width: 7em;
+    height: 7em;
+    display: block;
+    text-align: center;
+    margin: 0 1em;
+    border-radius: 50%;
+    padding: 0.5em;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 0 1em 1.5em rgba(0, 0, 0, 0.3);
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: 0.5s;
+}
+
+.contact ul li a:hover {
+    box-shadow: 0 0.2em 0.5em rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+
+.contact ul li a .fa {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(5em - 3em);
+    font-size: 3em;
+    color: #262626;
+    transition: 0.5s;
+}
+
+.contact ul li:nth-child(1) a:hover .fa {
+    color: #cd486b;
+}
+
+.contact ul li:nth-child(2) a:hover .fa {
+    color: #e91010;
+}
+
+/**Styling scrollable elements*/
+
+.js-scroll {
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+.js-scroll.scrolled {
+    opacity: 1;
+}
+
+.scrolled.fade-in-bottom {
+    animation: fade-in-bottom 1s ease-in-out both;
+}
+
+.scrolled.slide-left {
+    animation: slide-in-left 1s ease-in-out both;
+}
+
+.scrolled.slide-right {
+    animation: slide-in-right 1s ease-in-out both;
+}
+
+/* ----------------------------------------------
+   * Generated by Animista on 2021-2-11 23:32:31
+   * Licensed under FreeBSD License.
+   * See http://animista.net/license for more info. 
+   * w: http://animista.net, t: @cssanimista
+   * ---------------------------------------------- */
+
+@keyframes slide-in-left {
+    0% {
+        -webkit-transform: translateX(-100px);
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-right {
+    0% {
+        -webkit-transform: translateX(100px);
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-bottom {
+    0% {
+        -webkit-transform: translateY(50px);
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
