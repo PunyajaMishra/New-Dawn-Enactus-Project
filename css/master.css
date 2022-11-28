@@ -482,3 +482,179 @@ fieldset a:hover {
             SMALLER SCREENS
 #################################################
 */
+@media (max-width: 1280px) {
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    .nav-links-box {
+        width: 60%;
+    }
+}
+@media (max-width: 961px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+    /*index page*/
+    .index h1 {
+        font-size: 2rem;
+    }
+
+    .index h2 {
+        font-size: 1.2rem;
+    }
+
+    /*index page HEADER*/
+    header button {
+        width: 4rem;
+        height: 1.5rem;
+        font-size: 0.8rem;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 50%;
+        height: 10%;
+        margin-left: 0;
+    }
+
+    .logo p {
+        margin-left: 0;
+    }
+
+    .nav-links-box {
+        width: 100%;
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+    .nav-links {
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    .intro-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro-container-text button {
+        width: 8rem;
+        height: 2rem;
+        padding: 0.5%;
+        margin-top: 2%;
+        font-size: 1.2rem;
+    }
+
+    /* About */
+    .about {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        margin: 5% 0;
+    }
+
+    .about-right {
+        width: 100%;
+    }
+
+    .about-left {
+        width: 100%;
+    }
+
+    /* team */
+    .team {
+        margin: 5% 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .team img {
+        width: 30%;
+    }
+
+    /* partner */
+    .partners {
+        height: 100%;
+    }
+    .partners-type {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+    }
+
+    /* contact us */
+    .contact ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .contact ul li a {
+        width: 5em;
+        height: 5em;
+    }
+    .contact ul li a .fa {
+        font-size: 2em;
+    }
+
+    /* user login pages*/
+    .signup,
+    .login {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin: 1% 0;
+        border-radius: 1%;
+        align-items: center;
+        overflow-x: hidden;
+    }
+
+    .login {
+        margin: 10% 0;
+    }
+
+    .signup-form,
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .signup-form h1,
+    .login-form h1 {
+        margin-left: 0;
+    }
+
+    .forgot-password h1 {
+        margin-left: 0;
+    }
+
+    .signup-form button,
+    .login-form button {
+        margin-left: 0;
+        width: 40%;
+    }
+
+    .signup-img,
+    .login-img {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .signup-img img,
+    .login-img img {
+        width: 100%;
+    }
+
+    fieldset a {
+        margin-left: 0;
+    }
+}
