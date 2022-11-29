@@ -482,7 +482,7 @@ fieldset a:hover {
             SMALLER SCREENS
 #################################################
 */
-@media (max-width: 1280px) {
+@media (max-width: 1295px) {
     /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
     .nav-links-box {
         width: 60%;
