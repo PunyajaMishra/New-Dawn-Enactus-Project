@@ -18,10 +18,6 @@ body {
     font-family: Garamond, serif;
 }
 
-.userenteredlocation-body {
-    background-color: #ff823a;
-}
-
 h1 {
     font-family: "Courier New", monospace;
     font-size: 3rem;
@@ -481,15 +477,35 @@ ul {
 
 /*
 #################################################
+            HOMEPAGE HEADER
+#################################################
+*/
+.user-homepage-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-homepage-header img {
+    width: 5%;
+    height: 5%;
+}
+
+.user-homepage-header p {
+    font-size: 2rem;
+}
+
+.user-homepage-header a {
+    text-decoration: none;
+}
+
+/*
+#################################################
             SMALLER SCREENS
 #################################################
 */
-@media (max-width: 1295px) {
-    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-    .nav-links-box {
-        width: 60%;
-    }
-}
+
 @media (max-width: 961px) {
     /* contact us */
     .contact ul {
