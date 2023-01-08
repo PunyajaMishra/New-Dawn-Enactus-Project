@@ -57,10 +57,34 @@ button:hover {
 */
 header {
     display: flex;
+    flex-direction: column;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.header1 {
+    background-color: rgb(168, 164, 164);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 2.75vw;
+}
+
+.nav-links-box1 {
+    font-size: 1.5rem;
+    vertical-align: middle;
+    width: 35%;
+    margin-right: 5%;
+}
+
+.header2 {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex: 1 1 auto;
     vertical-align: middle;
+    margin-top: 0;
 }
 
 .logo {
@@ -86,23 +110,27 @@ header {
     font-size: 1.8rem;
 }
 
-.nav-links {
+.nav-links,
+.nav-links1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
 }
 
-.nav-links li {
+.nav-links li,
+.nav-links1 li {
     vertical-align: middle;
 }
 
-.nav-links li a {
+.nav-links li a,
+.nav-links1 li a {
     color: black;
     text-decoration: none;
 }
 
-.nav-links li a:hover {
+.nav-links li a:hover,
+.nav-links1 li a:hover {
     color: blue;
 }
 
@@ -111,6 +139,7 @@ header {
                     INTRO
 #################################################
 */
+
 .intro-container {
     display: flex;
     flex-direction: row;
@@ -171,30 +200,56 @@ header {
                 Team/ Resources
 #################################################
 */
+.team-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin: 20% 0;
+}
 
-.team {
-    margin: 10% 11% 10%;
+.team-section p {
+    font-size: 1rem;
+}
+
+.team-members {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    height: 20rem;
-    width: 80%;
+    overflow-x: scroll;
 }
 
-.team-left {
-    margin-left: 2%;
+.team-members-section {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
     text-align: center;
+    margin: 0 5%;
 }
 
-.team img {
+.team-member-img img {
+    width: 30%;
     border-radius: 50%;
 }
 
-.team-right {
-    font-size: 1.2rem;
-    text-align: center;
-    margin-right: 5%;
+.team-members-enactus {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
 }
+
+.team-members-enactus img {
+    margin: 0 5%;
+    width: 30%;
+    height: 10%;
+}
+
+.team-members-enactus p {
+    margin: 0 5%;
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
 /*
 #################################################
                     PARTNERS
@@ -218,6 +273,7 @@ header {
     display: flex;
     flex-direction: row;
 }
+
 .partners-type img {
     border-radius: 50%;
 }
