@@ -60,15 +60,19 @@ header {
     flex-direction: column;
     position: -webkit-sticky;
     position: sticky;
+    z-index: 100;
     top: 0;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+        rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 .header1 {
-    background-color: rgb(168, 164, 164);
+    background-color: rgb(206, 206, 206);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 2.75vw;
+    height: 2vw;
 }
 
 .nav-links-box1 {
@@ -76,6 +80,11 @@ header {
     vertical-align: middle;
     width: 35%;
     margin-right: 5%;
+}
+
+.nav-links1 {
+    padding: 0;
+    margin: 1% 0;
 }
 
 .header2 {
@@ -90,8 +99,8 @@ header {
 .logo {
     display: flex;
     flex-direction: row;
-    width: 40%;
-    height: 10%;
+    width: 30%;
+    height: 5%;
     margin-left: 1%;
 }
 
@@ -281,6 +290,78 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/*
+#################################################
+                Mainpage Section
+#################################################
+*/
+
+.mainpage-section1 {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    text-align: center;
+    align-items: center;
+}
+
+.mainpage-section1 h1 {
+    font-size: 3rem;
+}
+
+.mainpage-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainpage-section-column {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.mainpage-section-column h1 {
+    width: 100%;
+    background-color: #fc985f;
+}
+
+.mainpage-section-column a {
+    color: black;
+    text-decoration: none;
+}
+
+.mainpage-section-column h1 a:hover {
+    color: blue;
+}
+
+.mainpage-section-column h2 {
+    font-size: 1.5rem;
+}
+
+.mainpage-section ul {
+    list-style: none;
+    width: 90%;
+    margin: 3%;
+    margin-left: -5%;
+}
+
+.mainpage-section li,
+.mainpage-section li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    background-color: rgb(206, 201, 201);
+    margin: 3% 0;
+    padding: 2%;
+}
+
+.mainpage-section li:hover,
+.mainpage-section li a:hover {
+    color: blue;
 }
 /*
 #################################################
